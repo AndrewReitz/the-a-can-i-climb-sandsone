@@ -99,7 +99,7 @@ const main = async () => {
     if (hoursSinceLastRain < 48) {
       message = `<h2 class="red">No.</h2>`;
     } else {
-      message = `<h2 class="green">Probobly*</h2>`;
+      message = `<h2 class="green">Probably*</h2>`;
     }
 
     document.getElementById("data").innerHTML = `${message}<h4 class="center">
