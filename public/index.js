@@ -107,7 +107,7 @@ const main = async () => {
   } else {
     document.getElementById(
       "data"
-    ).innerHTML = `<h2 class="green">Probobly*</h2><h4 class="center">
+    ).innerHTML = `<h2 class="green">Probably*</h2><h4 class="center">
     It last rained over a week ago.</h4>`;
   }
 
